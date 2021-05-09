@@ -1,0 +1,83 @@
+main {
+	background-color: #f9f8f8;
+
+}
+
+.card {
+	background: #fff;
+	padding: 50px;
+	/* border-radius: 7px;
+	-webkit-box-shadow: 2px 6px 5px 0px rgb(0 0 0 / 75%);
+	-moz-box-shadow: 2px 6px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 6px 5px 0px rgb(0 0 0 / 15%); */
+}
+
+.content-img{
+	height: 100vh;
+}
+.img-login{
+	height: inherit;
+}
+
+.button-line {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #b5afaf;
+	line-height: 0.5em;
+	margin: 10px 0 20px;
+}
+
+.button-span{
+	background: #ffffff;
+    padding: 0 10px;
+    color: #989595;
+}
+.btn, .form-control {
+	border-radius: 32px;
+	height: 50px;
+}
+
+.list-logue{
+	flex-direction: row !important;
+}
+
+.btn-login{
+ background-color: #7C3DB2;
+ border: none;
+}
+
+.btn-google {
+	border-color: #db4a39;
+	font-weight: 600;
+	background-color: #fff;
+	color: #db4a39;
+
+}
+.btn-face {
+	border-color: #3b5998;
+	font-weight: 600;
+	background-color: #fff;
+	color: #3b5998;
+ 
+}
+.btn-ico{
+	height: 20px;
+
+}
+
+.c-link {
+	color: #7C3DB2;
+	text-decoration: underline;
+}
+
+
+
+main {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
