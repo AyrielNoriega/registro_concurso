@@ -15,9 +15,11 @@
 
 	    <!-- Styles -->
 			<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-			<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+			{{-- <link href="{{ asset('css/style.css') }}" rel="stylesheet"> --}}
 			<link rel="preconnect" href="https://fonts.gstatic.com">
 			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+			@yield('style')
 </head>
 <body>
 
@@ -27,6 +29,10 @@
 				@yield('content')
 		</main>
 	</div>
+
+	<script src="{{ asset('js/app.js') }}"></script>
+
+	@yield('script')
 	
 </body>
 </html>

@@ -17,9 +17,14 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'nombre',
+        'apellido',
+        'cedula',
+        'celular',
+        'correo',
+        'habeas_data',
+        'departamento_id',
+        'ciudad_id',
     ];
 
     /**
@@ -40,4 +45,24 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Get the ciudad that owns the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function ciudad()
+    {
+        return $this->belongsTo(Ciudad::class);
+    }
+
+    /**
+     * Get the departamento that owns the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function departamento()
+    {
+        return $this->belongsTo(Departamento::class);
+    }
 }

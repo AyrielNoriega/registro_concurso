@@ -3,17 +3,10 @@ main {
 
 }
 
-.card {
-	background: #fff;
-	padding: 50px;
-	/* border-radius: 7px;
-	-webkit-box-shadow: 2px 6px 5px 0px rgb(0 0 0 / 75%);
-	-moz-box-shadow: 2px 6px 5px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 6px 5px 0px rgb(0 0 0 / 15%); */
-}
 
 .content-img{
-	height: 100vh;
+ background-image: url('/images/login.png');
+ background-position: center;
 }
 .img-login{
 	height: inherit;
@@ -76,8 +69,13 @@ main {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 }
+
+
 .title{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
+.contenido {
+	height: 100vh;
+}
