@@ -16,7 +16,7 @@
 				<script>
 					Swal.fire({
 						position: 'top-end',
-						icon: 'success',
+						icon: 'warning',
 						title: 'No hay registros suficientes',
 						showConfirmButton: false,
 						timer: 2500
@@ -152,17 +152,6 @@
 							 
 			 
 		} );
-
-
-		
-
- 
-
- 
-  
- 
-
-
 	});
 
 	</script>

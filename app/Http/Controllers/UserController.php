@@ -43,7 +43,7 @@ class UserController extends Controller
         // } 
  
  
-        return view('auth.login', [ 'dep' => $dep ]);
+        return view('auth.registro', [ 'dep' => $dep ]);
     }
 
     /**
@@ -70,7 +70,7 @@ class UserController extends Controller
  
         $user->save();
 
-        return redirect()->back()->with('message', 'sinuser');
+        return redirect()->back()->with('message', 'ok');
 
     }
 
@@ -109,7 +109,7 @@ class UserController extends Controller
             return view('admin.concurso')->with('userSelect', $userSelect);
         
         }else {
-            return redirect()->back()->with('message', 'sin usuario');
+            return redirect()->back()->with('message', 'sinuser');
         }
 
      

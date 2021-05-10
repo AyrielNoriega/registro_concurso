@@ -7,7 +7,7 @@
 			<h3 class="ml-3">Registro al concurso</h3>
  
 
-			<a class="ml-3" href="{{ route('user.index') }}">Ingresar</a>
+			{{-- <a class="ml-3" href="{{ route('user.index') }}">Ingresar</a> --}}
  
 	</div>
     <div class="row justify-content-center contenido">
@@ -29,7 +29,7 @@
         <div class="col-md-10 col-lg-10 content-img">
                 {{-- <img class="img-login " src="{{ asset('images/login.png') }}" alt="login image"> --}}
 
-								<form method="POST" action="{{ route('user.registro') }}">
+								<form method="POST" action="{{ route('user.store') }}">
 									@csrf
 									<div class="form-row">
 										<div class="form-group col-md-4">

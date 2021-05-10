@@ -19,7 +19,7 @@
 		<p class="lead">Ciudad  : <span class="text-uppercase"> {{ $userSelect->ciudad->ciudad }} </span></p>
 
 		<hr class="my-4">
-		<a class="btn btn-primary btn-lg" href="{{ route('user.index') }}" role="button">Regresar</a>
+		<a class="btn btn-primary btn-lg" href="{{ route('user.admin') }}" role="button">Regresar</a>
 	</div>
 	
 </div>
